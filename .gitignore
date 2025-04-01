@@ -1,0 +1,46 @@
+# Gemfile
+Gemfile*
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler config and gems
+.bundle/
+vendor/
+
+# Ruby environment normalization
+.ruby-version
+.ruby-gemset
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jekyll default posts
+_posts/
