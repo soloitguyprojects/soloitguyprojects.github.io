@@ -5,7 +5,11 @@ description: >
   <br><br>
   <p class="special-paragraph">Page created just to comply with a ridiculous Unity rule to be able to publish an asset in the asset store.</p>
   <br><br>
-  lonelyitguystudio@gmail.com
+<p>
+   <a href="mailto:lonelyitguystudio@gmail.com" class="email-link">
+      <i class="fas fa-envelope"></i> lonelyitguystudio@gmail.com
+   </a>
+</p>
   <br><br>
   
 remote_theme: pages-themes/minimal@v0.2.0
