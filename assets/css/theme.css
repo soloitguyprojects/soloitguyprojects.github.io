@@ -10,7 +10,7 @@
   --border-color: #1d3557;
   --card-bg: rgba(26, 32, 44, 0.4);
   --card-hover: rgba(26, 32, 44, 0.6);
-  --text-paragraph-color: #c1dbdc;
+  --text-paragraph-color: #ADD8E6;
 }
 
 body {
@@ -31,7 +31,9 @@ a {
 }
 
 body .special-paragraph {
-  color: var(--text-paragraph-color); /* A cor desejada para esse parágrafo específico */
+  color: var(--text-paragraph-color);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 a:hover {
