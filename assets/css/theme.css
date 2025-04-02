@@ -30,7 +30,7 @@ a {
   transition: color 0.2s ease;
 }
 
-special-paragraph {
+.special-paragraph p {
   color: var(--text-paragraph-color);
 }
 
