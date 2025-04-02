@@ -5,7 +5,7 @@
   --link-color: #64ffda;
   --link-hover-color: #9bf6e4;
   --header-link-color:#c1dbdc;
-  --heading-color: white;
+  --heading-color: #ffffff;
   --header-bg: rgba(7, 18, 39, 0.95);
   --border-color: #1d3557;
   --card-bg: rgba(26, 32, 44, 0.4);
@@ -43,7 +43,7 @@ header a {
 }
 
 .project-card h3 {
-  color: white !important; 
+  color: var(--heading-color); 
 }
 
 .project-card h3 a:hover {
