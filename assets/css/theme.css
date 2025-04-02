@@ -5,7 +5,7 @@
   --link-color: #64ffda;
   --link-hover-color: #9bf6e4;
   --header-link-color:#c1dbdc;
-  --heading-color: #c1dbdc;
+  --heading-color: white;
   --header-bg: rgba(7, 18, 39, 0.95);
   --border-color: #1d3557;
   --card-bg: rgba(26, 32, 44, 0.4);
@@ -176,4 +176,18 @@ section {
     flex: none;
     width: auto;
   }
+}
+
+.video-embed {
+  display: flex;
+  justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+  align-items: center;      /* Centraliza o conteúdo verticalmente (opcional) */
+  width: 100%;              /* Garante que a div ocupe toda a largura disponível */
+  height: 100%;             /* Garante que a div ocupe toda a altura disponível (opcional) */
+}
+
+.video-embed iframe {
+  width: 80%;               /* Ajusta a largura do iframe. Aqui, 80% da largura da div */
+  height: 450px;            /* Aumenta a altura do iframe para 450px (você pode ajustar conforme necessário) */
+  max-width: 100%;          /* Garante que o iframe não ultrapasse a largura da div */
 }
