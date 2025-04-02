@@ -10,6 +10,7 @@
   --border-color: #1d3557;
   --card-bg: rgba(26, 32, 44, 0.4);
   --card-hover: rgba(26, 32, 44, 0.6);
+  --text-paragraph-color: #c1dbdc;
 }
 
 body {
@@ -27,6 +28,10 @@ a {
   color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s ease;
+}
+
+special-paragraph {
+  color: var(--text-paragraph-color);
 }
 
 a:hover {
